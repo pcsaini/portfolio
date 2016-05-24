@@ -1,9 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello</title>
+	<title>Portfolio</title>
+	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
-<body>
-<h1>Hello Worlds</h1>
+<body class="home">
+
+        <div class="demo-gallery">
+            <ul id="lightgallery" class="list-unstyled row">
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1.jpg 375, img/1.jpg 480, img/1.jpg 800" data-src="img/1.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/1.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2.jpg 375, img/2.jpg 480, img/2.jpg 800" data-src="img/2.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/2.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/3.jpg 375, img/3.jpg 480, img/3.jpg 800" data-src="img/3.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/3.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4.jpg 375, img/4.jpg 480, img/4.jpg 800" data-src="img/4.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/4.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+  
+
+
+
+		<script type="text/javascript">
+        	$(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="js/lightGallery/lightgallery.js"></script>
+        <script src="js/lightGallery/lg-fullscreen.js"></script>
+        <script src="js/lightGallery/lg-thumbnail.js"></script>
+        <script src="js/lightGallery/lg-video.js"></script>
+        <script src="js/lightGallery/lg-autoplay.js"></script>
+        <script src="js/lightGallery/lg-zoom.js"></script>
+        <script src="js/lightGallery/lg-hash.js"></script>
+        <script src="js/lightGallery/lg-pager.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
 </body>
 </html>
