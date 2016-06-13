@@ -115,3 +115,133 @@
   .home .demo-gallery {
   padding-bottom: 80px;
   }
+
+
+
+.protfolio-area {
+    background: #f8f8f8 none repeat scroll 0 0;
+}
+.protfolio-area .section-title {
+    color: #fff;
+}
+.bg-gray .section-title h2 {
+    color: #333;
+}
+.bg-gray .section-title p {
+    color: #727272;
+}
+.theme-bg .section-title h2 {
+    color: #fff;
+}
+.theme-bg .section-title p {
+    color: #fff;
+}
+.protfolio-style-2 .protfolio-list > div {
+  padding: 0px;
+}
+.protfolio-style-2 .no-margin{
+  margin: 0;
+}
+.protfolio-style-2 .single-protfolio{
+  margin: 0;
+}
+
+.protfolio-style-3 .protfolio-list > div {
+  padding: 0px;
+}
+.protfolio-style-3 .no-margin{
+  margin: 0;
+}
+.protfolio-style-3 .single-protfolio{
+  margin: 0;
+}
+.protfolio-style-3 .more, .protfolio-style-2 .more{
+  margin-top: 50px;
+}
+/*--------------------------
+    7.1. Portfolio Menu 
+----------------------------*/
+.tab-menu {
+    margin-bottom: 50px;
+    padding: 0;
+}
+.tab-menu ul {
+    list-style: outside none none;
+}
+.tab-menu ul li {
+    background: #13EAA9 none repeat scroll 0 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto 8px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.filter.active {
+    background: #0b8e67
+}
+.tab-menu ul li:hover {
+    background: #0b8e67;
+}
+/*--------------------------
+    7.2. Single Portfolio 
+----------------------------*/
+.single-protfolio {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.hover {
+    background: rgba(0, 188, 212, 0.75) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.hover-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hover-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hover-table-cell a {
+    color: #ffffff;
+    font-size: 25px;
+}
+.hover-table-cell h4 a {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+.single-protfolio:hover .hover {
+    top: 0;
+}
+.protfolio-list .mix {
+    display: none;
+}
+.parsetis {
+    position: relative;
+}
+.parsetis span {
+    display: table-cell;
+    font-size: 25px;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+    vertical-align: middle;
+}

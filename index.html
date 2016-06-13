@@ -4,44 +4,78 @@
 	<title>Portfolio</title>
 	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 </head>
-<body class="home">
-
-        <div class="demo-gallery">
-            <ul id="lightgallery" class="list-unstyled row">
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1.jpg 375, img/1.jpg 480, img/1.jpg 800" data-src="img/1.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/1.jpg">
-                    </a>
-                </li>
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2.jpg 375, img/2.jpg 480, img/2.jpg 800" data-src="img/2.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/2.jpg">
-                    </a>
-                </li>
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/3.jpg 375, img/3.jpg 480, img/3.jpg 800" data-src="img/3.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/3.jpg">
-                    </a>
-                </li>
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4.jpg 375, img/4.jpg 480, img/4.jpg 800" data-src="img/4.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/4.jpg">
-                    </a>
-                </li>
-            </ul>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-title">
+                        <h2>My Portfolio</h2>
+                        <p>My Works In these Fileld</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="tab-menu text-center">
+                        <ul>
+                            <li class="filter" data-filter="all">All</li>
+                            <li class="filter" data-filter=".html">HTML / CSS</li>
+                            <li class="filter" data-filter=".php">PHP</li>
+                            <li class="filter" data-filter=".email">HTML E-mail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="protfolio-list" id="lightgallery">
+                    <div class="col-md-4 col-sm-6 col-xs-12 all html" data-responsive="" data-src="img/1.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/1.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 all html" data-responsive="" data-src="img/2.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/2.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 all php" data-responsive="" data-src="img/3.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/3.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 all email" data-responsive="" data-src="img/4.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                        <div class="single-protfolio">
+                            <a href="">
+                                <img class="img-responsive" src="img/4.jpg">
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
         </div>
+
   
 
-
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" sec="js/bootstrap.min.js"></script>
 
 		<script type="text/javascript">
         	$(document).ready(function(){
             $('#lightgallery').lightGallery();
         });
         </script>
-        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+
+        <!-- <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script> -->
         <script src="js/lightGallery/lightgallery.js"></script>
         <script src="js/lightGallery/lg-fullscreen.js"></script>
         <script src="js/lightGallery/lg-thumbnail.js"></script>
