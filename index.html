@@ -5,75 +5,181 @@
 	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ihover.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 </head>
 <body>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="section-title">
-                        <h2>My Portfolio</h2>
-                        <p>My Works In these Fileld</p>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="section-title">
+                            <h2 class="wow fadeInDown" data-wow-delay="0.3s">My Portfolio</h2>
+                            <p class="wow fadeInLeft" data-wow-delay="0.3s">My Works In these Fileld</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="tab-menu text-center">
+                            <ul>
+                                <li class="filter" data-filter="all">All</li>
+                                <li class="filter" data-filter=".html">HTML / CSS</li>
+                                <li class="filter" data-filter=".php">PHP</li>
+                                <li class="filter" data-filter=".email">HTML E-mail</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="protfolio-list" id="lightgallery">
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix html" data-responsive="" data-src="img/html/home.png" data-sub-html="<h3>Home Page</h3><p><a href='https://github.com/pcsaini/Homepage' class='source-btn'>Source Code</a>&nbsp;&nbsp;&nbsp;<a href='http://pcsaini.net23.net/' class='live-btn'>Live Demo</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/html/home.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix html" data-responsive="" data-src="img/html/college.png" data-sub-html="<h3>College Website</h3><p><a href='https://github.com/pcsaini/College-Website' class='source-btn'>Source Code</a>&nbsp;&nbsp;&nbsp;<a href='http://pcsaini.github.io/College-Website/ ' class='live-btn'>Live Demo</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/html/college.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix php" data-responsive="" data-src="img/php/theme8.png" data-sub-html="<h3>Theme 8</h3><p><a href='https://github.com/pcsaini/8' class='source-btn'>Source Code</a>&nbsp;&nbsp;&nbsp;<a href='http://www.hubilo.com/theme/8/index.php?event=b12a2b0b8a46ed74771b089328f5b18b' class='live-btn'>Live Demo</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/php/theme8.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix php" data-responsive="" data-src="img/php/theme9.png" data-sub-html="<h3>Theme 9</h3><p><a href='https://github.com/pcsaini/9' class='source-btn'>Source Code</a>&nbsp;&nbsp;&nbsp;<a href='http://www.hubilo.com/theme/9/index.php?event=b12a2b0b8a46ed74771b089328f5b18b' class='live-btn'>Live Demo</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/php/theme9.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix php" data-responsive="" data-src="img/php/theme10.png" data-sub-html="<h3>Theme 10</h3><p><a href='https://github.com/pcsaini/10' class='source-btn'>Source Code</a>&nbsp;&nbsp;&nbsp;<a href='http://www.hubilo.com/theme/10/index.php?event=b12a2b0b8a46ed74771b089328f5b18b' class='live-btn'>Live Demo</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/php/theme10.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix php html" data-responsive="" data-src="img/php/mail.png" data-sub-html="<h3>PHP Mailer</h3><p><a href='https://github.com/pcsaini/php-mailer' class='source-btn'>Source Code</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/php/mail.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix html" data-responsive="" data-src="img/html/color.png" data-sub-html="<h3>Color Switcher</h3><p><a href='https://github.com/pcsaini/colorswitcher' class='source-btn'>Source Code</a>&nbsp;&nbsp;&nbsp;<a href='http://pcsaini.github.io/colorswitcher/' class='live-btn'>Live Demo</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/html/color.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix email" data-responsive="" data-src="img/html-email/email2.png" data-sub-html="<h3>Email Template 2</h3><p><a href='https://github.com/pcsaini/html-email/tree/master/2' class='source-btn'>Source Code</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/html-email/email2.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix html" data-responsive="" data-src="img/html/portfolio.png" data-sub-html="<h3>Portfolio</h3><p><a href='https://github.com/pcsaini/portfolio' class='source-btn'>Source Code</a>&nbsp;&nbsp;&nbsp;<a href='http://pcsaini.github.io/portfolio/' class='live-btn'>Live Demo</a></p>">
+                            <div class="single-protfolio">
+                                <div class="ih-item square colored effect6 from_top_and_bottom">
+                                    <a href="">
+                                        <div class="img">
+                                            <img class="img-responsive" src="img/html/portfolio.png">
+                                        </div>
+                                        <div class="info">
+                                            <p style="color:#fff; top: 30%;"><i class="fa fa-search fa-2x" style="border-radius: 6px; padding: 5px; border: 3px solid rgb(255, 255, 255);"></i></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="tab-menu text-center">
-                        <ul>
-                            <li class="filter" data-filter="all">All</li>
-                            <li class="filter" data-filter=".html">HTML / CSS</li>
-                            <li class="filter" data-filter=".php">PHP</li>
-                            <li class="filter" data-filter=".email">HTML E-mail</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="protfolio-list" id="lightgallery">
-                    <div class="col-md-4 col-sm-6 col-xs-12 all html" data-responsive="" data-src="img/1.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <div class="single-protfolio">
-                            <a href="">
-                                <img class="img-responsive" src="img/1.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 all html" data-responsive="" data-src="img/2.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <div class="single-protfolio">
-                            <a href="">
-                                <img class="img-responsive" src="img/2.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 all php" data-responsive="" data-src="img/3.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <div class="single-protfolio">
-                            <a href="">
-                                <img class="img-responsive" src="img/3.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 all email" data-responsive="" data-src="img/4.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <div class="single-protfolio">
-                            <a href="">
-                                <img class="img-responsive" src="img/4.jpg">
-                            </a>
-                        </div>
-                    </div>
-                
-                </div>
-            </div>
-        </div>
 
   
 
         <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
         <script type="text/javascript" sec="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 
 		<script type="text/javascript">
         	$(document).ready(function(){
             $('#lightgallery').lightGallery();
         });
+
+            new WOW().init();
+
+            $('.protfolio-list').mixItUp();
         </script>
+
 
         <!-- <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script> -->
         <script src="js/lightGallery/lightgallery.js"></script>
